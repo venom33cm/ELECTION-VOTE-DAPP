@@ -1,0 +1,42 @@
+.table {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  width: 90vh;
+  margin: 20px 0;
+  outline: "none";
+  border: 1px solid #ff5733;
+  border-radius: 3px;
+  height: 30px;
+  color: white;
+  background: #ff5733;
+  padding: 3px;
+}
+.btn:hover {
+  background: #ffc300;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.container {
+  display: flex;
+  width: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 10px;
+}
+.id {
+  flex: 0.3;
+}
+.name {
+  flex: 0.4;
+}
+.votes {
+  flex: 0.3;
+}
